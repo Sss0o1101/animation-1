@@ -12,4 +12,15 @@
     width: 80px;
     height: 80px;
     background-color: rgb(147, 56, 207);
+    animation: spinner 5s linear infinite;
+    margin: auto;
+}
+
+@keyframes spinner{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
